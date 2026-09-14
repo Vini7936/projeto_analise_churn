@@ -1,18 +1,16 @@
 
-# Análise de Churn com Python
-Através desse projeto pude praticar diversos conceitos e ferramentas do Python aplicadas à ciência de dados. Entre eles podem ser citados:
+# Análise de Churn de Clientes com Python 
 
-- Importação de bibliotecas do Python;
-- Importar dados de arquivo CSV;
-- Tratamento de valores nulos;
-- Visualização de dados através de gráfico;
-- Encodar dados do tipo string para serem analisados pelos modelos de Machine Learning;
-- Agrupamento em dados de treino e dados de teste;
-- Treino e previsão utilizando algoritmo Naive Bayes;
-- Treino e previsão utilizando um modelo de Árvore de Decisão;
-- Cálculo da acurácia de ambos os modelos;
-- Visualização da Matriz de confusão de ambos os modelos;
-- Utilização do GitHub para exposição do projeto.
+Reduzir a taxa de cancelamento (churn) é um dos maiores desafios estratégicos para empresas de diversos setores. Para praticar e aprofundar meus conhecimentos em Ciência de Dados, desenvolvi um projeto end-to-end focado em prever quais clientes têm maior probabilidade de deixar a base.
 
+Durante o desenvolvimento, passei por todas as etapas fundamentais de um pipeline de dados:
 
-Resultados: Entre os dois modelos utilizados, o que apresentou melhores resultados foi o de árvores de decisão, com acurácia acima dos 90 por cento. Contudo, o algoritmo de Naive Bayes apresentou uma taxa de acerto próxima dos 80 por cento.
+  Principais etapas do projeto:
+- Análise Exploratória e Tratamento: Limpeza de dados, tratamento de valores nulos e visualizações gráficas para entender o comportamento da base;
+- Engenharia de Dados: Transformação de variáveis categóricas (Encoding) para o formato adequado aos algoritmos.
+- Modelagem Preditiva: Divisão dos dados em treino/teste e aplicação de dois algoritmos de Machine Learning: Naive Bayes e Árvore de Decisão.
+- Avaliação de Desempenho: Comparação de métricas através da Matriz de Confusão e cálculo de acurácia.
+- Versionamento: Código completo documentado e disponível no GitHub.
+
+  Resultados:
+O modelo de Árvore de Decisão entregou a melhor performance, alcançando uma acurácia superior a 90%, enquanto o algoritmo de Naive Bayes garantiu uma taxa de acerto sólida próxima de 80%.
